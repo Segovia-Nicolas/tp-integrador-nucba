@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* css login */
+
+#body-Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center/cover;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(249,140,201);
+    border-radius: 10px;
+    padding: 80px;
+    gap: 30px;
+    margin-bottom: 20px;
+    background-color: #e1aeff59;   
+}
+
+.form-login input{
+    border: 2px solid rgb(249,140,201); 
+    border-radius: 5px;
+    width: 12rem;
+    height: 1.8rem;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.btn-ingresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-ingresar button{
+    background-color: #fdd4eb81;
+    border: 2px solid rgb(249,140,201);
+    border-radius: 10px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 20px;
+    color: #46423f;
+    cursor: pointer;
+}
+
+.usuario{
+    font-size: 20px;
+    font-weight: 700;
+    color:#1d1d1c
+}
+
+.usuario input{
+    padding: 3px 5px;
+}
+
+.password{
+    font-size: 20px;
+    font-weight: 700;
+    color:#1d1d1c
+}
+
+.password input{
+    padding: 3px 5px;
+}
+
+.form-recuperar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.form-recuperar a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1d1d1c;
+    gap: 20px;
+}
+
+.recuperar{
+    background: rgba(249, 140, 202, 0.583);
+    padding: 3px 5px;
+    border-radius: 5px;
+
+}
+
+/* css registrer */
+
+#body-Registrer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center/cover;
+}
+
+.form-registrer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1aeffb7;
+    color: #353331;;
+    padding: 20px 10px 20px 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(249,140,201);
+}
+
+.form-registrer form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(249,140,201);
+    border-radius: 10px;
+    padding: 30px;
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: #e1aeff59;   
+}
+
+.form-registrer label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #353331;
+    font-weight: bold;
+}
+
+.form-registrer input{
+    border: 2px solid rgb(249,140,201); 
+}
